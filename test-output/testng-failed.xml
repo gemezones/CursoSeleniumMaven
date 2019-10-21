@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Utilitarios.TestCaseWatcher"/>
+  </listeners>
+  <test name="TestNG_Formulario(failed)">
+    <classes>
+      <class name="Test.TestFormulario">
+        <methods>
+          <include name="RegistrarFormulario" invocation-numbers="1 2"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test.TestFormulario -->
+    </classes>
+  </test> <!-- TestNG_Formulario(failed) -->
+</suite> <!-- Failed suite [Suite] -->

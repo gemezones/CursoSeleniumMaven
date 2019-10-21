@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="40319" started-at="2019-10-14T22:42:23Z" finished-at="2019-10-14T22:43:04Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="40319" started-at="2019-10-14T22:42:23Z" finished-at="2019-10-14T22:43:04Z">
+      <class name="Test.TestFormulario">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.TestFormulario@56f4468b]" name="setUp" is-config="true" duration-ms="27715" started-at="2019-10-14T17:42:23Z" finished-at="2019-10-14T17:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="RegistrarFormulario()[pri:0, instance:Test.TestFormulario@56f4468b]" name="RegistrarFormulario" duration-ms="12143" started-at="2019-10-14T17:42:51Z" finished-at="2019-10-14T17:43:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrarFormulario -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.TestFormulario@56f4468b]" name="tearDown" is-config="true" duration-ms="397" started-at="2019-10-14T17:43:03Z" finished-at="2019-10-14T17:43:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.TestFormulario -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
