@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>D:\George\WorkSpace\CursoSeleniumMaven\src\test\java\TestXML\TestFormulario.xml</span>
+                    <span>D:\CloneGitHub\src\test\java\TestXML\TestFormulario.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,6 +102,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test.TestFormulario" hash-for-method="RegistrarFormulario(Pedro Aquino, paquino@gmail.com, 13-Aug-2019, Hombre, Leer Libro, Carabayllo, Registro de Prueba 1)">RegistrarFormulario(Pedro Aquino, paquino@gmail.com, 13-Aug-2019, Hombre, Leer Libro, Carabayllo, Registro de Prueba 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test.TestFormulario" hash-for-method="RegistrarFormulario(George Mezones, paquino@gmail.com, 13-Aug-2019, Hombre, Leer Libro, Carabayllo, Registro de Prueba 2)">RegistrarFormulario(George Mezones, paquino@gmail.com, 13-Aug-2019, Hombre, Leer Libro, Carabayllo, Registro de Prueba 2)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -130,12 +135,20 @@
                   <span class="parameters">(Pedro Aquino, paquino@gmail.com, 13-Aug-2019, Hombre, Leer Libro, Carabayllo, Registro de Prueba 1)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegistrarFormulario(George Mezones, paquino@gmail.com, 13-Aug-2019, Hombre, Leer Libro, Carabayllo, Registro de Prueba 2)">
+                  </a> <!-- RegistrarFormulario(George Mezones, paquino@gmail.com, 13-Aug-2019, Hombre, Leer Libro, Carabayllo, Registro de Prueba 2) -->
+                  <span class="method-name">RegistrarFormulario</span>
+                  <span class="parameters">(George Mezones, paquino@gmail.com, 13-Aug-2019, Hombre, Leer Libro, Carabayllo, Registro de Prueba 2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\George\WorkSpace\CursoSeleniumMaven\src\test\java\TestXML\TestFormulario.xml</span>
+            <span class="header-content">D:\CloneGitHub\src\test\java\TestXML\TestFormulario.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -191,16 +204,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'RegistrarFormulario')
 data.setCell(0, 2, 'Test.TestFormulario')
-data.setCell(0, 3, 42486);
+data.setCell(0, 3, 80768);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'RegistrarFormulario')
+data.setCell(1, 2, 'Test.TestFormulario')
+data.setCell(1, 3, 42485);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 42 seconds</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -233,11 +250,15 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">RegistrarFormulario(Pedro Aquino, paquino@gmail.com, 13-Aug-2019, Hombre, Leer Libro, Carabayllo, Registro de Prueba 1)</span>
-                <span class="method-start">31043 ms</span>
+                <span class="method-start">6983 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">RegistrarFormulario(George Mezones, paquino@gmail.com, 13-Aug-2019, Hombre, Leer Libro, Carabayllo, Registro de Prueba 2)</span>
+                <span class="method-start">87767 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">73561 ms</span>
+                <span class="method-start">130253 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

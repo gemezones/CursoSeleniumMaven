@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="93701" started-at="2019-10-18T16:46:17Z" finished-at="2019-10-18T16:47:51Z">
+  <suite name="Suite" duration-ms="105834" started-at="2019-10-21T21:09:27Z" finished-at="2019-10-21T21:11:12Z">
     <groups>
     </groups>
-    <test name="TestNG_Formulario" duration-ms="93701" started-at="2019-10-18T16:46:17Z" finished-at="2019-10-18T16:47:51Z">
+    <test name="TestNG_Formulario" duration-ms="105834" started-at="2019-10-21T21:09:27Z" finished-at="2019-10-21T21:11:12Z">
       <class name="Test.TestFormulario">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.TestFormulario@31610302]" name="setUp" is-config="true" duration-ms="3521" started-at="2019-10-18T11:46:18Z" finished-at="2019-10-18T11:46:21Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.TestFormulario@31610302]" name="setUp" is-config="true" duration-ms="6534" started-at="2019-10-21T16:09:27Z" finished-at="2019-10-21T16:09:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="RegistrarFormulario(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.TestFormulario@31610302]" name="RegistrarFormulario" duration-ms="30088" started-at="2019-10-18T11:46:22Z" data-provider="getTestData" finished-at="2019-10-18T11:46:52Z">
+        <test-method status="PASS" signature="RegistrarFormulario(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.TestFormulario@31610302]" name="RegistrarFormulario" duration-ms="50796" started-at="2019-10-21T16:09:34Z" data-provider="getTestData" finished-at="2019-10-21T16:10:25Z">
           <params>
             <param index="0">
               <value>
@@ -52,62 +52,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegistrarFormulario -->
-        <test-method status="PASS" signature="RegistrarFormulario(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.TestFormulario@31610302]" name="RegistrarFormulario" duration-ms="28544" started-at="2019-10-18T11:46:52Z" data-provider="getTestData" finished-at="2019-10-18T11:47:21Z">
+        <test-method status="PASS" signature="RegistrarFormulario(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.TestFormulario@31610302]" name="RegistrarFormulario" duration-ms="47540" started-at="2019-10-21T16:10:25Z" data-provider="getTestData" finished-at="2019-10-21T16:11:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Flor Quispe]]>
+                <![CDATA[George Mezones]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[fquispe@quispe.com]]>
+                <![CDATA[paquino@gmail.com]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[15-Aug-2019]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Mujer]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Leer Libro]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Surco]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Registro de Prueba 2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RegistrarFormulario -->
-        <test-method status="PASS" signature="RegistrarFormulario(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.TestFormulario@31610302]" name="RegistrarFormulario" duration-ms="28188" started-at="2019-10-18T11:47:21Z" data-provider="getTestData" finished-at="2019-10-18T11:47:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Juam Meza]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[jmeza@quispe.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[15-Aug-2019]]>
+                <![CDATA[13-Aug-2019]]>
               </value>
             </param>
             <param index="3">
@@ -122,19 +81,19 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[Surco]]>
+                <![CDATA[Carabayllo]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[Registro de Prueba 3]]>
+                <![CDATA[Registro de Prueba 2]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegistrarFormulario -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.TestFormulario@31610302]" name="tearDown" is-config="true" duration-ms="2194" started-at="2019-10-18T11:47:49Z" finished-at="2019-10-18T11:47:51Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.TestFormulario@31610302]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-21T16:11:12Z" finished-at="2019-10-21T16:11:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

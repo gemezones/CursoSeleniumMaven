@@ -3,7 +3,6 @@ Utilitarios\UtilitariosButton.class
 ConfiguracionBase\ConfigBase.class
 Page\PageFormulario.class
 Utilitarios\TestCaseWatcher.class
-CursoSeleniumMaven\CursoSeleniumMaven\AppTest.class
 Utilitarios\UtilitariosReporte.class
 Bean\BeanFormulario.class
 Utilitarios\ExtentUtil.class

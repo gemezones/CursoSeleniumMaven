@@ -8,7 +8,7 @@
     <classes>
       <class name="Test.TestFormulario">
         <methods>
-          <include name="RegistrarFormulario" invocation-numbers="0 1 2"/>
+          <include name="RegistrarFormulario" invocation-numbers="0"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>

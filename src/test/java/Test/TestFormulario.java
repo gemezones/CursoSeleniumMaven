@@ -51,16 +51,22 @@ public class TestFormulario extends ConfigBase {
   @AfterTest
   public void tearDown() throws InterruptedException ,Exception
 	{				
-		driver.close();
+		//driver.close();
 	}
 
   @DataProvider(name="getTestData")
 	public static Object[][] datosPoblados() throws InterruptedException ,Exception{
 		
 		Object[][] datos = null;
-		datos=UtilitariosIO.obtenerDataPrueba(prop.getProperty("rutaDataExcel"), "Data");	
+		try
+		{
+		datos=UtilitariosIO.obtenerDataPrueba(prop.getProperty("rutaDataExcel"), "Data");
+		}
+		catch(Exception e)
+		{
+			throw new Exception();
+		}
 		return datos;
-		
 	}
   
 }
