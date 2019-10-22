@@ -47,7 +47,7 @@ public class PageFormulario extends ConfigBase
 	
 	//@FindBy(xpath  = "")
 	//WebElement comboValor;
-	
+	//actualizado desde Git Hub
 	@FindBy(xpath  = "//span[contains(text(),'Enviar')]")
 	WebElement enviar;
 	//Actulizado desde GitHub
