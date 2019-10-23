@@ -13,7 +13,7 @@ public class BeanFormulario {
 	private String hobbies;
 	private String distrito;
 	private String CasoPrueba;
-	
+	//
 
 	public BeanFormulario() {
 		super();
